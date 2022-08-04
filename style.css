@@ -5,15 +5,54 @@
     font-style: normal;
 }
 
-#bloc_page
+/* Mise en forme du Header */
+
+header img 
 {
-    height: 992px;
-    margin: 50px;
+    min-width: 100px;
+    width: 8%;
+    margin-left: 50px;
 }
 
-header img
+header 
 {
-    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1px;
+}
+
+header nav
+{
+    margin-top: 15px;
+}
+
+header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+header ul li
+{
+    margin-right: 40px;
+}
+
+header .bordure
+{
+    padding: 36px;
+}
+
+header .bordure:hover
+{
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+    padding: 36px;
+}
+
+h1
+{
+    font-size: 150%;
 }
 
 input 
@@ -23,3 +62,72 @@ input
     font-size: 16px;
 }
 
+/* Mise en forme de la barre de recherche */
+
+.search-bar{
+    margin-left: 35px;
+  }
+  
+  .search-bar .map {
+    display: flex;
+  }
+  
+  .search-bar .fa-map-marker-alt {
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 112%
+  }
+  
+  .search-bar input {
+    height: 50px;
+    width: 230px;
+    border: #f2f2f2 1px solid;
+    font-weight: 600;
+    font-size: 119%;
+    outline: none;
+  }
+  
+  .search-bar input::placeholder{
+    color: black;
+    padding-left: 20px; 
+  }
+  
+  .search-bar .search {
+    border-radius: 0 10px 10px 0;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #0065fc;
+    cursor: pointer;
+    margin-top: auto;
+  }
+  
+  .fa-search{
+    color: transparent;
+    display: none;
+  }
+  
+  h1{
+      margin-top: 25px;
+      margin-bottom: 10px;
+  }
+  
+  .search-bar p{
+    margin-bottom: 20px; 
+    color: rgb(78, 77, 77);
+    display: inline-block;
+  }
+
+body
+{
+    font-family: "Raleway", sans-serif;
+}
