@@ -14,11 +14,10 @@ header img
     margin-left: 50px;
 }
 
-header 
+header section div
 {
-    display: flex;
-    justify-content: space-between; 
-    padding: 1px;
+  display: flex;
+  align-items: flex-start;
 }
 
 header nav
@@ -31,6 +30,7 @@ header ul
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    
 }
 
 header ul li
