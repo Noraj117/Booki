@@ -6,36 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="filters.css">
     <script src="https://kit.fontawesome.com/0b6d538c32.js" crossorigin="anonymous"></script>
     <title>Booki</title>
     <link rel="shortcut icon" href="images/logo/Booki.png">
 </head>
 <body>
-        <header>
-            <div id="logo">
-               <img src="images/logo/Booki@3x.png" alt="logo Booki">
-            </div>
-            <nav>
-                <ul>
-                    <li><a class="bordure" href="#hebergement"> Hébergement</a></li>
-                    <li><a class="bordure" href="#activites"> Activités</a></li>
-                </ul>
-            </nav>
+    <header>
+        <img src="images/logo/Booki.png" alt="logo Booki">
+        <nav>
+            <ul>
+                <li><a class="border" href="#hebergement"> Hébergement</a></li>
+                <li><a class="border" href="#activites"> Activités</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <Section class="search-bar">
-                <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-                <div class="map">
-                    <i class="fa fa-map-marker-alt"> </i>
-                    <form method="post" action="traitement.php">
-                        <input class="city" type="search" placeholder="Marseille, France" />
-                    </form>	
-                    <p class="search">Rechercher</p>
-                    <i class="fas fa-search"></i>
+    <Section class="search-bar">
+        <h1>Trouvez votre hébergement  pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <div class="map">
+            <i class="fa fa-map-marker-alt"> </i>
+            <form method="post" action="traitement.php">
+                <input class="city" type="search" placeholder="Marseille, France" />
+            </form>	
+            <p class="search">Rechercher</p>
+            <i class="fas fa-search"></i>
+            </div>
+    </Section>
+
+    <Section class="filters-section">
+        <h3>Filtres</h3>
+        <div class="filters-icon">
+            <div class="filters">
+                <div class="icon">
+                    <i class="fas fa-money-bill-wave icone_cercle"></i>
                 </div>
-            </Section>
-        </header>
-    </div>
+                    <p>Economique</p>
+            </div>
+            <div class="filters">
+                <div class="icon">
+                    <i class="fas fa-child icone_cercle"></i>
+                </div>
+                    <p>Familial</p>
+            </div>
+        </div>
+        <div class="filters-icon filters-column">
+            <div class="filters">
+                <div class="icon">
+                    <i class="fas fa-heart icone_cercle"></i>
+                </div>
+                    <p>Romantique</p>
+            </div>
+            <div class="filters">
+                <div class="icon">
+                    <i class="fas fa-dog icone_cercle"></i>
+                </div>
+                    <p>Animaux autorisés</p>
+            </div>
+        </div>
+    </Section>
 
     
     

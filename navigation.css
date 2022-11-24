@@ -1,0 +1,44 @@
+/* Mise en forme du Header */
+
+header img 
+{
+    min-width: 100px;
+    width: 8%;
+    margin-left: 50px;
+}
+
+header 
+{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 25px;
+}
+
+header nav
+{
+    margin-top: 15px;
+}
+
+header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header ul li
+{
+    margin-right: 40px;
+}
+
+header .border
+{
+    padding: 36px;
+}
+
+header .border:hover
+{
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
+    padding: 36px;
+}
+
