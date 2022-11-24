@@ -9,9 +9,9 @@ header img
 
 header 
 {
-  display: flex;
-  justify-content: space-between; 
-  margin-top: 25px;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 25px;
 }
 
 header nav
