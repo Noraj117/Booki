@@ -90,3 +90,76 @@ main
     cursor: pointer;
     font-size: 113%;
 }
+
+/* Mise en place de la section les plus populaires */
+
+.popular-section
+{
+    background: #F2F2F2;
+    width: 30%;
+    height: 650px;
+    border-radius: 20px;
+}
+
+.popular-section .title-popular
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.fa-chart-line
+{
+    font-size: 25px;
+}
+
+.popular-section .border-popular
+{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 145px;
+    width: 290px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.062);
+    transition: 0.8s;
+}
+
+.popular-section .border-popular:hover
+{
+    transform: scale(1.07);
+}
+
+.popular-section img
+{
+    object-fit: cover;
+    height: 140px;
+    width: 110px;
+    border-radius: 20px 0 0 20px;
+    padding: 3%;
+}
+
+.popular-section .text-picture
+{
+    margin-top: 10px;
+}
+
+.popular-section .star
+{
+    margin-top: 25px;
+}
+
+.popular-section .colorblue
+{
+    color: #0065fc;
+    font-size: 80%;
+}
+
+.popular-section .colorgrey
+{
+    color: #d6d1d1;
+    font-size: 80%;
+}
