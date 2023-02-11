@@ -1,0 +1,82 @@
+@media screen and (min-width:992px) and (max-width:1200px)
+
+{
+    /* Section Filtres */
+    .filters-section .filter-icon
+    {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .filters-section h3
+    {
+        margin: 25px 5px 0 30px;
+        font-size: 119%;
+    }
+
+    /* Section Hébergements */
+
+    .accomodations-section h2
+    {
+        font-size: 119%;
+    }
+
+    .part-1
+    {
+        flex-wrap: nowrap;
+    }
+
+    .accomodations-section .border-picture
+    {
+        width: 29%;
+        height: 210px;
+    }
+
+    .accomodations-section .text-picture
+    {
+        font-size: 81%;
+    }
+
+    .accomodations-section img
+    {
+        height: 120px;
+    }
+
+    /* Section les plus populaires */
+
+    .popular-section .border-popular
+    {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .popular-section .text-picture
+    {
+        font-size: 81%;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .popular-section .rating
+    {
+        margin-top: 10px;
+    }
+
+    .popular-section h2
+    {
+        font-size: 119%;
+    }
+
+    .popular-section p
+    {
+        font-size: 100%;
+        padding-bottom: 40px;
+    }
+
+    /* Footer */
+
+    .bloc-footer
+    {
+        width: 110%;
+    }
+}
