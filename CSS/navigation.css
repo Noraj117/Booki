@@ -12,11 +12,12 @@ header
     display: flex;
     justify-content: space-between; 
     margin-top: 25px;
+    
 }
 
 header nav
 {
-    margin-top: 15px;
+    margin-top: 39px;
 }
 
 header ul
@@ -40,5 +41,5 @@ header .border:hover
     border-top: 3px solid #0065fc;
     color: #0065fc;
     padding: 36px;
+    
 }
-
