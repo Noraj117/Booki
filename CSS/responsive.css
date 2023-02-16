@@ -309,8 +309,8 @@
     .activity-section
     {
         height: 1900px;
-        margin-left: 55px;
-        width: 88.5%;
+        margin-left: 40px;
+        width: 86.5%;
     }
 
     .activity-section .bloc-card
@@ -352,4 +352,145 @@
         margin-top: 60px;
         padding-bottom: 15px;
     }
+}
+
+@media screen and (max-width: 599px)
+{
+    /* Section Les plus populaires */
+
+    .popular-section h4 
+    {
+        font-size: 100%;
+    }
+
+    .popular-section p 
+    {
+        font-size: 87%;
+    }
+
+    .popular-section .rating
+    {
+        font-size: 87%;
+        margin-top: 25px;
+    }
+
+    .popular-section img 
+    {
+        width: 160px;
+    }
+
+    .popular-section .border-popular
+    {
+        height: 145px;   
+    }
+
+    main 
+    {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 600px;
+    }
+
+    .activity-section
+    {
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 441px)
+{
+    /* Barre de navigation */
+
+    header ul 
+    {
+        flex-wrap: nowrap;
+    }
+
+    header ul li 
+    {
+        margin-right: 10px;
+    }
+
+    /* Barre de recherche */
+
+    .search-bar h1 
+    {
+        width: 270px;
+    }
+
+    .search-bar p 
+    {
+        font-size: 14.4px;
+    }
+
+    /* Section Filtres */
+
+    .filters-section h3 
+    {
+        font-size: 125%;
+        margin-bottom: 20px;
+    }
+
+    /* Section Infos */
+
+    .info-section .circle-info
+    {
+        margin: 0 0 20px 20px;
+    }
+
+    /* Section Hébergements */
+
+    .accommodations-section .border-picture
+    {
+        height: 210px;
+        padding-bottom: 0;
+    }
+    .accommodations-section img 
+    {
+        height: 120px;
+        width: 98.6%;
+    }
+
+    /* Section Les plus populaires */
+
+    .popular-section img 
+    {
+        width: 130px;
+        height: 140px;
+        padding: 2%;
+    }
+   
+    /* Section Activités */
+
+    .activity-section
+    {
+        height: 1300px;
+        margin-left: -20px;
+    }
+
+    .activity-section .border-activity
+    {
+        height: 155px;
+        width: 108%;
+    }
+
+    .activity-section img
+    {
+        height: 120px;
+    }
+
+    /* Footer */
+
+    footer ul 
+    {
+        margin-bottom: 10px;
+    }
+
+    .bloc-footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
