@@ -178,7 +178,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 0;
+        margin-left: 10px;
         margin-right: 0;
     }
 
@@ -366,6 +366,32 @@
 
 @media screen and (max-width: 599px)
 {
+    /* Section Filtres */
+    .filters-section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filters-icon
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .filters-section .filters-column
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .filters-section .filters
+    {
+        display: flex;
+    }
+
     /* Section Les plus populaires */
 
     .popular-section h4 
@@ -503,4 +529,36 @@
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width: 300px)
+{
+   header
+   {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0% 10% 0%;
+   }
+    body 
+    {
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-bar 
+    {
+        margin-left: 0;
+    }
+
+    .popular-section .text-picture
+    {
+        justify-content: center;
+        margin-top: 0;
+        margin-left: 5%;
+        
+    }
 }
